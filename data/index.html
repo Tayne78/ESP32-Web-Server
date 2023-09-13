@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Measurements</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Wetterstation</h1>
+  <p>Temperatur: {{temperature}}</p>
+  <p>Humidity: {{humidity}}</p>
+
+  <script>
+    // Function to refresh the page every 30 seconds
+    function refreshPage() {
+        location.reload(); // Reload the page
+    }
+
+    setInterval(refreshPage, 3000);
+</script>
+  
+
+
+</body>
+</html>
